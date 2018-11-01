@@ -150,7 +150,6 @@ rope-py3k==0.9.4.post1
 s3transfer==0.1.12
 scikit-image==0.13.0
 scikit-learn==0.18.1
-scipy==0.19.0
 seaborn==0.7.1
 selenium==3.5.0
 simplegeneric==0.8.1
