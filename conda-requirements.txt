@@ -1,4 +1,3 @@
-spicy
 numpy
 pandas
 bokeh
@@ -7,3 +6,4 @@ flask
 jinja2
 pip
 simplejson
+fbprophet
