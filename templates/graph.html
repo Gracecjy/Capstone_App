@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <title>Graph for Stock Prices</title>
+        <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+        <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-{{bv}}.min.css" type="text/css" />
+        <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-{{bv}}.min.js"></script>
+        {{script|safe}}
+	</head>
+    <body>
+        <div id="wrapper">
+            <div id="left">
+                <h1>Projection for Net Sales</h1>
+                {{ div_sales | safe }}
+                {{ script_sales | safe }}
+            </div>
+
+            <div id="middle">
+                <h1>Projection for Transactions</h1>
+                {{ div_trans | safe }}
+                {{ script_trans | safe }}
+            </div>
+
+            <div id="right">
+                <h1>Projection for Visits</h1>
+                {{ div_visits | safe }}
+                {{ script_visits | safe }}
+            </div>
+        </div>
+    </body>
+</html>
