@@ -1,13 +1,11 @@
 
 # coding: utf-8
 
-# In[ ]:
 
 import os
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, redirect
-import sklearn.cross_validation
 import requests
 from fbprophet import Prophet
 import datetime
@@ -123,7 +121,6 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
 
 
-# In[ ]:
 
 
 
