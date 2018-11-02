@@ -7,8 +7,6 @@ import os
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, redirect
-import matplotlib
-import matplotlib.pyplot as plt
 import sklearn.cross_validation
 import requests
 from fbprophet import Prophet
